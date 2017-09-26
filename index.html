@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro Luiz Miguel</title>
+	
+	<style>
+				#titulo{
+						text-align : center;
+						}
+			</style>
+</head>
+<body>
+    <h1 id="titulo">Cadastro</h1>
+    <form action="saida.php" method="POST" align='center'>
+        Nome da Banda:<br>
+        <input type="text" name="nomeBanda" width="50"><br>
+        Link Para a Imagem:<br>
+        <input type="text" name="imagem"><br>
+        Integrante 1 Nome:<br>
+        <input type="text" name="int1Nome"><br>
+        Integrante 1 Data de Nascimento:<br>
+        <input type="text" name="int1Nas"><br>
+        Integrante 1 instrumento:<br>
+        <input type="text" name="int1Inst"><br>
+        Integrante 2 Nome:<br>
+        <input type="text" name="int2Nome"><br>
+        Integrante 2 Data de Nascimento:<br>
+        <input type="text" name="int2Nas"><br>
+        Integrante 2 instrumento:<br>
+        <input type="text" name="int2Inst"><br>
+        Integrante 3 Nome:<br>
+        <input type="text" name="int3Nome"><br>
+        Integrante 3 Data de Nascimento:<br>
+        <input type="text" name="int3Nas"><br>
+        Integrante 3 instrumento:<br>
+        <input type="text" name="int3Inst"><br>
+        Biografia da Banda:<br>
+        <textarea name="bandaBio" cols="100" rows="40" ></textarea><br>
+        Cor de Fundo da Página:<br>
+        <select name="corFundo" size="1">
+            <option value="blue">Azul</option>
+			<option value="yellow">Amarelo</option>
+			<option value="white">Branco</option>
+			<option value="black">Preto</option>
+			<option value="green">Verde</option>
+			<option value="red">Vermelho</option>
+        </select><br>
+        Cor do Texto da Página:<br>
+        <select name="corTexto" size="1">
+            <option value="blue">Azul</option>
+			<option value="yellow">Amarelo</option>
+			<option value="white">Branco</option>
+			<option value="black">Preto</option>
+			<option value="green">Verde</option>
+			<option value="red">Vermelho</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Gerar Página">
+    </form>   
+</body>
+</html>
